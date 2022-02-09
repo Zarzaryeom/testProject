@@ -17,7 +17,7 @@ public class AirCon {
 	*/
 	
 	
-	final
+//	final
 	//변수를 만들었을 때 변수에 있는 값이 저장되면 변경이 안되게 한다, 상수라고 부른다.
 	
 	
@@ -73,16 +73,16 @@ class Control{
 			System.out.println("중하");
 		}else if(a == 2) {
 			System.out.println("하");
-		else a = 0;
-		return 
+		}else a = 0;
+		return;
 	}
 	
 	//풍속설정 메서드
-	int speedControl() {
-		if(speed > 5) {
-			speed = 0;
-		}else speed++;
-	}
+//	int speedControl() {
+//		if(speed > 5) {
+//			speed = 0;
+//		}else speed++;
+//	}
 	
 	//설정 매서드
 	void optionControl() {
